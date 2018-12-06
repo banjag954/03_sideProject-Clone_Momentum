@@ -6,10 +6,19 @@ body{
     cursor: pointer;
 }
 
-h1 {
+body {
     color: #34495e;
 }
 
 .clicked {
     color: #b4b4b4;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
 }
